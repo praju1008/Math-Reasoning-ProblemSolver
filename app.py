@@ -78,7 +78,7 @@ for msg in st.session_state.messages:
 # ----- UI -----
 question = st.text_area(
     "Enter your Question here:",
-    "I have a rectangle with a length of 10 units and a width of 5 units. What is the area of the rectangle?",
+    "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
 )
 
 if st.button("Submit Question"):
