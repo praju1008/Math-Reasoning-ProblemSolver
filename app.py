@@ -3,7 +3,7 @@ from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
 from langchain_community.utilities import WikipediaAPIWrapper
 
-st.set_page_config(page_title="Math Problem Solver", page_icon=":robot:")
+st.set_page_config(page_title="Math & Reasoning Problem Solver", page_icon=":robot:")
 st.title("Math Problem Solver 🤖")
 
 # ----- API KEY -----
