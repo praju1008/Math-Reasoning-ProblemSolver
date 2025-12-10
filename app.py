@@ -4,7 +4,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_community.utilities import WikipediaAPIWrapper
 
 st.set_page_config(page_title="Math & Reasoning Problem Solver", page_icon=":robot:")
-st.title("Math Problem Solver 🤖")
+st.title("Math & Reasoning Problem Solver 🤖")
 
 # ----- API KEY -----
 groq_api_key = st.sidebar.text_input("Enter your Groq API Key", type="password")
